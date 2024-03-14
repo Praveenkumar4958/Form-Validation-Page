@@ -1,0 +1,61 @@
+.username,.email,.password,.confirm-password{
+    font-size:20px;
+    display:flex;
+    margin-left:40px;
+    color:grey;
+}
+
+.username-input,.email-input,.password-input,.confirm-password-input{
+    margin-bottom:23px;
+    margin-left:40px;
+    height:25px;
+    width:80%;
+}
+
+.form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+body{
+    background-image: url("background.jpg");
+}
+
+.button
+{
+    background-color:rgb(48, 152, 186);
+    color:white;
+    font-size:15px;
+    border:none;
+    border-radius:10px;
+    padding-right:35%;
+    padding-left:35%;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+    margin-left:39px;
+    margin-bottom:30px;
+}
+
+.heading{
+    display:flex;
+    justify-content:center;
+}
+
+.message {
+    height: 35px;
+    width:200px;
+    overflow: hidden; 
+    font-size:12px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:40px;
+    color:red;
+}
+
+.form1{
+    background-color:white;
+    width:20%;
+}
